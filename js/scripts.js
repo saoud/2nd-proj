@@ -14,19 +14,19 @@ $(document).ready(function() {
         //To exapnd upon this just add more logic below so all answers are accounted for.
 
         if (q1 === "Python" && q2 === "Scripting") {
-          $("#Python").alert();
+          $("#Python").show();
       }
           else if (q1 === "JavaScript" && q3 === ":)") {
-            $("#R").alert(); 
+            $("#R").show(); 
       }
             else if (q5 === "enjoy") {
-              $("#JavaScript").alert();
+              $("#JavaScript").show();
       }
               else if (q4 === "edm") {
-                $("Python").alert()
+                $("Python").show()
       }
                 else if (q3 === ":(") {
-                  $("R").alert()
+                  $("R").show()
       }
 
     });
