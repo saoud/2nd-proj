@@ -12,14 +12,14 @@ _A webpage built to help people pick a porgramming language based on certain que
 ## Setup/Installation Requirements
 
 * _Open terminal and navigate to 'Desktop'._
-* _In terminal, type 'git clone https://github.com/saoud/language-suggester.git' and press enter._
+* _In terminal, type 'git clone https://github.com/saoud/2nd-proj.git' and press enter._
 * _You have two options, you can just drag the index.html file to your browser or you can follow the following steps:_
 * _1. In terminal, type 'cd portfolio' and press enter._
 * _2. In terminal, type 'code .' and press enter to open project in VS Code._
 * _3. Right click on 'index.html' and select 'Open with Live Server' to view page in your favorite web browser._
 * _Make sure you have Live Server installed in VS Code https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer_
 
-* _To view website via GitHub Pages, access the link through 'https://saoud.github.io/language-suggester/'_
+* _To view website via GitHub Pages, access the link through 'https://saoud.github.io/2nd-proj/'_
 
 
 
