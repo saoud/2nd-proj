@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scipts.js"></script>
+  <title>Some questions to help you pick a programming langauge to start programming!</title>
+</head>
+<body>
+  <div class="jumbotron">
+  <h1 id="title">Some questions to help you pick a programming langauge to start programming!</h1>
+  </div>
+  <div class="container">
+    <form id="lang selecter">
+    <h4 class="box">Which of the following Lanauges interest you?</h4>
+    <select class="form-control" id="question1" value="langauge">
+      <option value="Python">Python</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="R">R</option>
+    </form>
+  </select>
+    <h4 class="box">What are you trying to accomplish by programming?</h4>
+    <select class="form-control" id="question2">
+      <option value="Scripting">Scripting</option>
+      <option value="mobile">Web/Mobile Development</option>
+      <option value="DS">Data Science</option>
+  </select>
+  <form id="lang selecter">
+    <h4 class="box" class="box">How's life going?</h4>
+    <select class="form-control" id="question3">
+      <option value=":)">Amazing!</option>
+      <option value=":|">It could be better.</option>
+      <option value=":(">Its going.</option>
+    </select>
+    <form id="lang selecter">
+      <h4 class="box">What kind of music do you like?</h4>
+      <select class="form-control" id="question4">
+        <option value="edm">EDM</option>
+        <option value="rock">Rock</option>
+        <option value="jazz">Jazz</option>
+      </select>
+      <form id="lang selecter">
+        <h4 class="box">Why do you want to learn programming?</h4>
+        <select class="form-control" id="question5">
+          <option value="enjoy">Enjoyment</option>
+          <option value="money">Money</option>
+          <option value="mental">Mental Challenge</option>
+        </select>
+  <button type="submit" class="btn-success">Submit</button>
+
+<div id="output">
+  <h2 class="hidden" id="Pyhton">You should learn Python</h2>
+  <h2 class="hidden" id="JavaScript">You should learn JavaScript</h2>
+  <h2 class="hidden" id="R">You should learn R</h2>
+</div>
+</body>
+</html>
