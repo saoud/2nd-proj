@@ -6,27 +6,27 @@ $(document).ready(function() {
   $(document).ready(function() {
     $("#formLang").submit(function(event) {
         event.preventDefault();
-        const q1 = $("input:radio[name=question1]:checked").val();
-        const q2 = $("input:radio[name=question2]:checked").val();
-        const q3 = $("input:radio[name=question3]:checked").val();
-        const q4 = $("input:radio[name=question4]:checked").val();
-        const q5 = $("input:radio[name=question5]:checked").val();
+        const q1 = $("input:form-control[name=question1]:checked").val();
+        const q2 = $("input:form-control[name=question2]:checked").val();
+        const q3 = $("input:form-control[name=question3]:checked").val();
+        const q4 = $("input:form-control[name=question4]:checked").val();
+        const q5 = $("input:form-control[name=question5]:checked").val();
         //To exapnd upon this just add more logic below so all answers are accounted for.
 
         if (q1 === "Python" && q2 === "Scripting") {
-          $("#Python").show();
+          $("#Python").alert();
       }
           else if (q1 === "JavaScript" && q3 === ":)") {
-            $("#R").show(); 
+            $("#R").alert(); 
       }
             else if (q5 === "enjoy") {
-              $("#JavaScript").show();
+              $("#JavaScript").alert();
       }
               else if (q4 === "edm") {
-                $("Python").show()
+                $("Python").alert()
       }
                 else if (q3 === ":(") {
-                  $("R").show()
+                  $("R").alert()
       }
 
     });
