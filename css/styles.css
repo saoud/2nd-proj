@@ -1,3 +1,7 @@
+body {
+  background-image: url('../imgs/body.jpg')
+}
+
 .jumbotron {
   background-image: url('../imgs/header.jpg')
 }
