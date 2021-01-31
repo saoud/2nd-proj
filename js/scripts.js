@@ -16,7 +16,7 @@ $(document).ready(function() {
         if (q1 === "Python" && q2 === "Scripting") {
           $("#Python").show();
       }
-          else if (q1 === "JavaScript" && q3 === "purple") {
+          else if (q1 === "JavaScript" && q3 === ":)") {
             $("#R").show(); 
       }
             else if (q5 === "enjoy") {
