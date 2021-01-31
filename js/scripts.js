@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable").click(function(event) {
     $(#"output").slideToggle();
   });
 
@@ -23,7 +23,10 @@ $(document).ready(function() {
               $("#JavaScript").show();
       }
               else if (q4 === "edm") {
-                #("Python").show()
+                $("Python").show()
+      }
+                else if (q3 === ":(") {
+                  $("R").show()
       }
 
     });
