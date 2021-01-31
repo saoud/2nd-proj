@@ -22,6 +22,9 @@ $(document).ready(function() {
             else if (q5 === "enjoy") {
               $("#JavaScript").show();
       }
+              else if (q4 === "edm") {
+                #("Python").show()
+      }
 
     });
 });
