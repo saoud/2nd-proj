@@ -4,7 +4,7 @@ $(document).ready(function() {
   });
 
   $(document).ready(function() {
-    $("#formLang").submit(function(event) {
+    $("#langSelect").submit(function(event) {
         event.preventDefault();
         const q1 = $("input:form-control[name=question1]:checked").val();
         const q2 = $("input:form-control[name=question2]:checked").val();
