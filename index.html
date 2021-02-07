@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <title>Programming Langauge Test</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scipts.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Some questions to help you pick a programming langauge to start programming!</title>
 </head>
-<body>
-  <div class="jumbotron">
-  <h1 id="title">Some questions to help you pick a programming langauge to start programming!</h1>
-  </div>
-  <div class="container">
-    <form id="langSelect">
-    <h4 class="box">Which of the following Lanauges interest you?</h4>
-    <select class="form-control" id="question1" value="langauge">
-      <option value="Python">Python</option>
-      <option value="JavaScript">JavaScript</option>
-      <option value="R">R</option>
-    </form>
-  </select>
-    <h4 class="box">What are you trying to accomplish by programming?</h4>
-    <select class="form-control" id="question2">
-      <option value="Scripting">Scripting</option>
-      <option value="mobile">Web/Mobile Development</option>
-      <option value="DS">Data Science</option>
-  </select>
-  <form id="langSelect">
-    <h4 class="box" class="box">How's life going?</h4>
-    <select class="form-control" id="question3">
-      <option value=":)">Amazing!</option>
-      <option value=":|">It could be better.</option>
-      <option value=":(">Its going.</option>
-    </select>
-    <form id="langSelect">
-      <h4 class="box">What kind of music do you like?</h4>
-      <select class="form-control" id="question4">
-        <option value="edm">EDM</option>
-        <option value="rock">Rock</option>
-        <option value="jazz">Jazz</option>
-      </select>
-      <form id="langSelect">
-        <h4 class="box">Why do you want to learn programming?</h4>
-        <select class="form-control" id="question5">
-          <option value="enjoy">Enjoyment</option>
-          <option value="money">Money</option>
-          <option value="mental">Mental Challenge</option>
-        </select>
-  <button type="submit" class="btn-success">Submit</button>
 
-<div id="output">
-  <h2 class="hidden" id="Pyhton">You should learn Python</h2>
-  <h2 class="hidden" id="JavaScript">You should learn JavaScript</h2>
-  <h2 class="hidden" id="R">You should learn R</h2>
-</div>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>What language should you learn for programming?</h2>
+    </div>
+    <form id="q1">
+      <div class="language">
+        <p><br>Which of the following Lanauges interest you?</p>
+        <input type="checkbox" name="langauge" value="1">Python<br>
+        <input type="checkbox" name="langauge" value="1">Javascript<br>
+        <input type="checkbox" name="langauge" value="1">R<br>
+      </div>
+      <div class="accomplish">
+        <p><br>What are you trying to accomplish by programming?</p>
+        <input type="checkbox" name="accomplish" value="1">Scripting<br>
+        <input type="checkbox" name="accomplish" value="1">Web/Mobile Development<br>
+        <input type="checkbox" name="accomplish" value="1">Data Science<br>
+      </div>
+      <div class="life">
+        <p><br>How's life going?</p>
+        <input type="checkbox" name="life" value="1">Amazing<br>
+        <input type="checkbox" name="life" value="-1">It could be better.<br>
+        <input type="checkbox" name="life" value="-2">Its going.<br>
+      </div>
+      <div class="music">
+        <p><br>What kind of music do you like?</p>
+        <input type="checkbox" name="music" value="1">EDM<br>
+        <input type="checkbox" name="music" value="1">Rock<br>
+        <input type="checkbox" name="music" value="1">Jazz<br>
+      </div>
+      <div class="reason">
+        <p><br>Why do you want to learn programming?</p>
+        <input type="checkbox" name="reason" value="1">Enjoyment<br>
+        <input type="checkbox" name="reason" value="1">Money<br>
+        <input type="checkbox" name="reason" value="1">Mental Challenge<br>
+      </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+    
+    <div class="hidden">
+      <h2 id="Python">You should learn Python</h2>
+      <h2 id="Javascript">You should learn JavaScript</h2>
+      <h2 id="R">You should learn R</h2>
+    </div>
+  </div>
 </body>
 </html>
